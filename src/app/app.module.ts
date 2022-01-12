@@ -20,6 +20,8 @@ import { ButtonModule } from 'primeng/button';
 import { ChipsComponent } from './chips/chips.component';
 import { ColorpickerComponent } from './colorpicker/colorpicker.component';
 import { ColorPickerModule } from "primeng/colorpicker";
+import { DropdownComponent } from './dropdown/dropdown.component';
+import {DropdownModule} from 'primeng/dropdown';
 
 
 @NgModule({
@@ -30,7 +32,8 @@ import { ColorPickerModule } from "primeng/colorpicker";
     CascadeselectComponent,
     CheckboxComponent,
     ChipsComponent,
-    ColorpickerComponent
+    ColorpickerComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,8 @@ import { ColorPickerModule } from "primeng/colorpicker";
     CheckboxModule, //checkbox
     ChipsModule,//chjips
     ButtonModule,// chips
-    ColorPickerModule
+    ColorPickerModule,
+    DropdownModule
   ],
   providers: [
     CountryService
