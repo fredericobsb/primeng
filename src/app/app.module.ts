@@ -34,6 +34,7 @@ import {DropdownModule} from 'primeng/dropdown';
     ChipsComponent,
     ColorpickerComponent,
     DropdownComponent
+   
   ],
   imports: [
     BrowserModule,
@@ -49,6 +50,7 @@ import {DropdownModule} from 'primeng/dropdown';
     ButtonModule,// chips
     ColorPickerModule,
     DropdownModule
+    
   ],
   providers: [
     CountryService
