@@ -14,6 +14,8 @@ import { InputmaskComponent } from './inputmask/inputmask.component';
 import { InputnumberComponent } from './inputnumber/inputnumber.component';
 import { InputswitchComponent } from './inputswitch/inputswitch.component';
 import { InputtextComponent } from './inputtext/inputtext.component';
+import { InvalidstateComponent } from './invalidstate/invalidstate.component';
+import { KnobComponent } from './knob/knob.component';
 import { TextareaComponent } from './textarea/textarea.component';
 
 const routes: Routes = [
@@ -32,6 +34,8 @@ const routes: Routes = [
   {path:'inputtext', component: InputtextComponent},
   {path:'textarea', component: TextareaComponent},
   {path:'inputnumber', component: InputnumberComponent},
+  {path:'invalidstate', component:InvalidstateComponent},
+  {path:'knob', component:KnobComponent},
 ];
 
 @NgModule({

@@ -38,6 +38,12 @@ import { InputtextComponent } from './inputtext/inputtext.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import { InputnumberComponent } from './inputnumber/inputnumber.component';
+import { InvalidstateComponent } from './invalidstate/invalidstate.component';
+import { TreeSelectModule } from 'primeng/treeselect';
+import { NodeService } from './invalidstate/nodeService';
+import {PasswordModule} from 'primeng/password';
+import { KnobComponent } from './knob/knob.component';
+import {KnobModule} from 'primeng/knob';
 
 
 
@@ -58,7 +64,9 @@ import { InputnumberComponent } from './inputnumber/inputnumber.component';
     InputswitchComponent,
     InputtextComponent,
     TextareaComponent,
-    InputnumberComponent
+    InputnumberComponent,
+    InvalidstateComponent,
+    KnobComponent
     
    
   ],
@@ -83,12 +91,16 @@ import { InputnumberComponent } from './inputnumber/inputnumber.component';
     RadioButtonModule,
     InputSwitchModule,
     InputTextModule,
-    InputTextareaModule
+    InputTextareaModule,
+    TreeSelectModule,
+    PasswordModule,
+    KnobModule
     
     
   ],
   providers: [
-    CountryService
+    CountryService,
+    NodeService // SEM ELE: injection error -> null provider for NodeService.
   ],
   bootstrap: [AppComponent]
 })
