@@ -4,6 +4,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { CascadeselectComponent } from './cascadeselect/cascadeselect.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
+import { ColorpickerComponent } from './colorpicker/colorpicker.component';
 import { FormularioComponent } from './formulario/formulario.component';
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'cascadeselect', component: CascadeselectComponent},
   {path:'checkbox', component: CheckboxComponent},
   {path:'chips', component: ChipsComponent},
+  {path:'colorpicker', component: ColorpickerComponent}
 ];
 
 @NgModule({
