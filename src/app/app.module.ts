@@ -44,6 +44,8 @@ import { NodeService } from './invalidstate/nodeService';
 import {PasswordModule} from 'primeng/password';
 import { KnobComponent } from './knob/knob.component';
 import {KnobModule} from 'primeng/knob';
+import { RippleModule } from 'primeng/ripple';
+import { ButtonComponent } from './button/button.component';
 
 
 
@@ -66,7 +68,8 @@ import {KnobModule} from 'primeng/knob';
     TextareaComponent,
     InputnumberComponent,
     InvalidstateComponent,
-    KnobComponent
+    KnobComponent,
+    ButtonComponent
     
    
   ],
@@ -94,7 +97,8 @@ import {KnobModule} from 'primeng/knob';
     InputTextareaModule,
     TreeSelectModule,
     PasswordModule,
-    KnobModule
+    KnobModule,
+    RippleModule
     
     
   ],

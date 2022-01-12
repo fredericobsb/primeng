@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ButtonComponent } from './button/button.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { CascadeselectComponent } from './cascadeselect/cascadeselect.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
@@ -36,6 +37,7 @@ const routes: Routes = [
   {path:'inputnumber', component: InputnumberComponent},
   {path:'invalidstate', component:InvalidstateComponent},
   {path:'knob', component:KnobComponent},
+  {path:'button', component:ButtonComponent},
 ];
 
 @NgModule({
