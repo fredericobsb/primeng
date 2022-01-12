@@ -37,6 +37,7 @@ import {InputTextModule} from 'primeng/inputtext';
 import { InputtextComponent } from './inputtext/inputtext.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import {InputTextareaModule} from 'primeng/inputtextarea';
+import { InputnumberComponent } from './inputnumber/inputnumber.component';
 
 
 
@@ -56,7 +57,8 @@ import {InputTextareaModule} from 'primeng/inputtextarea';
     InputmaskComponent,
     InputswitchComponent,
     InputtextComponent,
-    TextareaComponent
+    TextareaComponent,
+    InputnumberComponent
     
    
   ],

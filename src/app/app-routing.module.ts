@@ -11,6 +11,7 @@ import { FloatlabelComponent } from './floatlabel/floatlabel.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { InputgroupComponent } from './inputgroup/inputgroup.component';
 import { InputmaskComponent } from './inputmask/inputmask.component';
+import { InputnumberComponent } from './inputnumber/inputnumber.component';
 import { InputswitchComponent } from './inputswitch/inputswitch.component';
 import { InputtextComponent } from './inputtext/inputtext.component';
 import { TextareaComponent } from './textarea/textarea.component';
@@ -30,6 +31,7 @@ const routes: Routes = [
   {path:'inputswitch', component: InputswitchComponent},
   {path:'inputtext', component: InputtextComponent},
   {path:'textarea', component: TextareaComponent},
+  {path:'inputnumber', component: InputnumberComponent},
 ];
 
 @NgModule({
