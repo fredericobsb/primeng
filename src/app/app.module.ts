@@ -31,6 +31,8 @@ import {InputNumberModule} from 'primeng/inputnumber';
 import { InputgroupComponent } from './inputgroup/inputgroup.component';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { InputmaskComponent } from './inputmask/inputmask.component';
+import { InputswitchComponent } from './inputswitch/inputswitch.component';
+import { InputSwitchModule } from "primeng/inputswitch";
 
 
 
@@ -48,7 +50,8 @@ import { InputmaskComponent } from './inputmask/inputmask.component';
     EditorComponent,
     FloatlabelComponent,
     InputgroupComponent,
-    InputmaskComponent
+    InputmaskComponent,
+    InputswitchComponent
     
    
   ],
@@ -70,7 +73,8 @@ import { InputmaskComponent } from './inputmask/inputmask.component';
     MultiSelectModule,
     InputMaskModule,
     InputNumberModule,
-    RadioButtonModule
+    RadioButtonModule,
+    InputSwitchModule
     
     
   ],
