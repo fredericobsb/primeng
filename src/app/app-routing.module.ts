@@ -10,6 +10,7 @@ import { EditorComponent } from './editor/editor.component';
 import { FloatlabelComponent } from './floatlabel/floatlabel.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { InputgroupComponent } from './inputgroup/inputgroup.component';
+import { InputmaskComponent } from './inputmask/inputmask.component';
 
 const routes: Routes = [
   {path:'formularios', component: FormularioComponent},
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path: 'dropdown', component: DropdownComponent},
   {path:'editor',component: EditorComponent},
   {path:'floatlabel',component: FloatlabelComponent},
-  {path:'inputgroup', component: InputgroupComponent}
+  {path:'inputgroup', component: InputgroupComponent},
+  {path:'inputmask', component: InputmaskComponent}
 ];
 
 @NgModule({
