@@ -28,6 +28,9 @@ import { FloatlabelComponent } from './floatlabel/floatlabel.component';
 import {MultiSelectModule} from 'primeng/multiselect';
 import { InputMaskModule } from 'primeng/inputmask';
 import {InputNumberModule} from 'primeng/inputnumber';
+import { InputgroupComponent } from './inputgroup/inputgroup.component';
+import { RadioButtonModule } from 'primeng/radiobutton';
+
 
 
 @NgModule({
@@ -41,7 +44,8 @@ import {InputNumberModule} from 'primeng/inputnumber';
     ColorpickerComponent,
     DropdownComponent,
     EditorComponent,
-    FloatlabelComponent
+    FloatlabelComponent,
+    InputgroupComponent
     
    
   ],
@@ -62,7 +66,9 @@ import {InputNumberModule} from 'primeng/inputnumber';
     EditorModule,
     MultiSelectModule,
     InputMaskModule,
-    InputNumberModule
+    InputNumberModule,
+    RadioButtonModule
+    
     
   ],
   providers: [

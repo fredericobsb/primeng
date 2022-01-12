@@ -9,6 +9,7 @@ import { DropdownComponent } from './dropdown/dropdown.component';
 import { EditorComponent } from './editor/editor.component';
 import { FloatlabelComponent } from './floatlabel/floatlabel.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { InputgroupComponent } from './inputgroup/inputgroup.component';
 
 const routes: Routes = [
   {path:'formularios', component: FormularioComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:'colorpicker', component: ColorpickerComponent},
   {path: 'dropdown', component: DropdownComponent},
   {path:'editor',component: EditorComponent},
-  {path:'floatlabel',component: FloatlabelComponent}
+  {path:'floatlabel',component: FloatlabelComponent},
+  {path:'inputgroup', component: InputgroupComponent}
 ];
 
 @NgModule({
