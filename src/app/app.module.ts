@@ -46,6 +46,10 @@ import { KnobComponent } from './knob/knob.component';
 import {KnobModule} from 'primeng/knob';
 import { RippleModule } from 'primeng/ripple';
 import { ButtonComponent } from './button/button.component';
+import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
+import { MessageService } from 'primeng/api';
+import { SplitButtonModule } from 'primeng/splitbutton';
+import { ToastModule } from 'primeng/toast';
 
 
 
@@ -69,7 +73,8 @@ import { ButtonComponent } from './button/button.component';
     InputnumberComponent,
     InvalidstateComponent,
     KnobComponent,
-    ButtonComponent
+    ButtonComponent,
+    SplitbuttonComponent
     
    
   ],
@@ -98,13 +103,16 @@ import { ButtonComponent } from './button/button.component';
     TreeSelectModule,
     PasswordModule,
     KnobModule,
-    RippleModule
+    RippleModule,
+    SplitButtonModule,
+    ToastModule,
     
     
   ],
   providers: [
     CountryService,
-    NodeService // SEM ELE: injection error -> null provider for NodeService.
+    NodeService, // SEM ELE: injection error -> null provider for NodeService.
+    MessageService
   ],
   bootstrap: [AppComponent]
 })
