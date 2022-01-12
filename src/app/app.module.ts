@@ -24,6 +24,10 @@ import { DropdownComponent } from './dropdown/dropdown.component';
 import {DropdownModule} from 'primeng/dropdown';
 import { EditorComponent } from './editor/editor.component';
 import {EditorModule} from 'primeng/editor';
+import { FloatlabelComponent } from './floatlabel/floatlabel.component';
+import {MultiSelectModule} from 'primeng/multiselect';
+import { InputMaskModule } from 'primeng/inputmask';
+import {InputNumberModule} from 'primeng/inputnumber';
 
 
 @NgModule({
@@ -36,7 +40,8 @@ import {EditorModule} from 'primeng/editor';
     ChipsComponent,
     ColorpickerComponent,
     DropdownComponent,
-    EditorComponent
+    EditorComponent,
+    FloatlabelComponent
     
    
   ],
@@ -54,7 +59,10 @@ import {EditorModule} from 'primeng/editor';
     ButtonModule,// chips
     ColorPickerModule,
     DropdownModule,
-    EditorModule
+    EditorModule,
+    MultiSelectModule,
+    InputMaskModule,
+    InputNumberModule
     
   ],
   providers: [

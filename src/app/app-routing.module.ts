@@ -7,6 +7,7 @@ import { ChipsComponent } from './chips/chips.component';
 import { ColorpickerComponent } from './colorpicker/colorpicker.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { EditorComponent } from './editor/editor.component';
+import { FloatlabelComponent } from './floatlabel/floatlabel.component';
 import { FormularioComponent } from './formulario/formulario.component';
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'chips', component: ChipsComponent},
   {path:'colorpicker', component: ColorpickerComponent},
   {path: 'dropdown', component: DropdownComponent},
-  {path:'editor',component: EditorComponent}
+  {path:'editor',component: EditorComponent},
+  {path:'floatlabel',component: FloatlabelComponent}
 ];
 
 @NgModule({
