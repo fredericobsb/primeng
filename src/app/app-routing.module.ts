@@ -6,6 +6,7 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
 import { ColorpickerComponent } from './colorpicker/colorpicker.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
+import { EditorComponent } from './editor/editor.component';
 import { FormularioComponent } from './formulario/formulario.component';
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path:'checkbox', component: CheckboxComponent},
   {path:'chips', component: ChipsComponent},
   {path:'colorpicker', component: ColorpickerComponent},
-  {path: 'dropdown', component: DropdownComponent}
+  {path: 'dropdown', component: DropdownComponent},
+  {path:'editor',component: EditorComponent}
 ];
 
 @NgModule({
