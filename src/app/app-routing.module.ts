@@ -13,6 +13,7 @@ import { InputgroupComponent } from './inputgroup/inputgroup.component';
 import { InputmaskComponent } from './inputmask/inputmask.component';
 import { InputswitchComponent } from './inputswitch/inputswitch.component';
 import { InputtextComponent } from './inputtext/inputtext.component';
+import { TextareaComponent } from './textarea/textarea.component';
 
 const routes: Routes = [
   {path:'formularios', component: FormularioComponent},
@@ -27,7 +28,8 @@ const routes: Routes = [
   {path:'inputgroup', component: InputgroupComponent},
   {path:'inputmask', component: InputmaskComponent},
   {path:'inputswitch', component: InputswitchComponent},
-  {path:'inputtext', component: InputtextComponent}
+  {path:'inputtext', component: InputtextComponent},
+  {path:'textarea', component: TextareaComponent},
 ];
 
 @NgModule({

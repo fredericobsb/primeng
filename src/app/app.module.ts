@@ -35,6 +35,8 @@ import { InputswitchComponent } from './inputswitch/inputswitch.component';
 import { InputSwitchModule } from "primeng/inputswitch";
 import {InputTextModule} from 'primeng/inputtext';
 import { InputtextComponent } from './inputtext/inputtext.component';
+import { TextareaComponent } from './textarea/textarea.component';
+import {InputTextareaModule} from 'primeng/inputtextarea';
 
 
 
@@ -53,7 +55,8 @@ import { InputtextComponent } from './inputtext/inputtext.component';
     InputgroupComponent,
     InputmaskComponent,
     InputswitchComponent,
-    InputtextComponent
+    InputtextComponent,
+    TextareaComponent
     
    
   ],
@@ -77,7 +80,8 @@ import { InputtextComponent } from './inputtext/inputtext.component';
     InputNumberModule,
     RadioButtonModule,
     InputSwitchModule,
-    InputTextModule
+    InputTextModule,
+    InputTextareaModule
     
     
   ],
