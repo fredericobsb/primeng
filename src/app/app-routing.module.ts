@@ -18,6 +18,7 @@ import { InputtextComponent } from './inputtext/inputtext.component';
 import { InvalidstateComponent } from './invalidstate/invalidstate.component';
 import { KnobComponent } from './knob/knob.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
+import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TextareaComponent } from './textarea/textarea.component';
 
 const routes: Routes = [
@@ -40,6 +41,7 @@ const routes: Routes = [
   {path:'knob', component:KnobComponent},
   {path:'button', component:ButtonComponent},
   {path:'splitbutton', component:SplitbuttonComponent},
+  {path:'tablecrud', component:TablecrudComponent}
 ];
 
 @NgModule({

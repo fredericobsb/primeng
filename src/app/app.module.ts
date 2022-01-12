@@ -47,11 +47,26 @@ import {KnobModule} from 'primeng/knob';
 import { RippleModule } from 'primeng/ripple';
 import { ButtonComponent } from './button/button.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
-import { MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from 'primeng/api';
 import { SplitButtonModule } from 'primeng/splitbutton';
 import { ToastModule } from 'primeng/toast';
+import { TablecrudComponent } from './tablecrud/tablecrud.component';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
+import {TableModule} from 'primeng/table';
+import {DialogModule} from 'primeng/dialog';
+import {RatingModule} from 'primeng/rating';
+import {FileUploadModule} from 'primeng/fileupload';
+import {ToolbarModule} from 'primeng/toolbar';//ToolBarModule
+import { ProductService } from './tablecrud/product.service';
+import {SliderModule} from 'primeng/slider';
+import {ContextMenuModule} from 'primeng/contextmenu';
+import {ProgressBarModule} from 'primeng/progressbar';
 
-
+/**
+ AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
+  Can't bind to 'cancel' since it isn't a known property of 'p-rating'
+  --> ta reclamando que voce nao importou o RatingModule
+ */
 
 @NgModule({
   declarations: [
@@ -74,7 +89,8 @@ import { ToastModule } from 'primeng/toast';
     InvalidstateComponent,
     KnobComponent,
     ButtonComponent,
-    SplitbuttonComponent
+    SplitbuttonComponent,
+    TablecrudComponent
     
    
   ],
@@ -106,13 +122,22 @@ import { ToastModule } from 'primeng/toast';
     RippleModule,
     SplitButtonModule,
     ToastModule,
-    
-    
+    ConfirmDialogModule,
+    TableModule,
+    DialogModule,
+    RatingModule,
+    FileUploadModule,
+    ToolbarModule,
+    ProgressBarModule,
+    ContextMenuModule,
+    SliderModule
   ],
   providers: [
     CountryService,
     NodeService, // SEM ELE: injection error -> null provider for NodeService.
-    MessageService
+    MessageService,
+    ProductService,
+    ConfirmationService
   ],
   bootstrap: [AppComponent]
 })
