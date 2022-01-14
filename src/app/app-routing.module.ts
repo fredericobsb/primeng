@@ -16,6 +16,7 @@ import { InputnumberComponent } from './inputnumber/inputnumber.component';
 import { InputswitchComponent } from './inputswitch/inputswitch.component';
 import { InputtextComponent } from './inputtext/inputtext.component';
 import { InvalidstateComponent } from './invalidstate/invalidstate.component';
+import { KeyfilterComponent } from './keyfilter/keyfilter.component';
 import { KnobComponent } from './knob/knob.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
@@ -41,7 +42,8 @@ const routes: Routes = [
   {path:'knob', component:KnobComponent},
   {path:'button', component:ButtonComponent},
   {path:'splitbutton', component:SplitbuttonComponent},
-  {path:'tablecrud', component:TablecrudComponent}
+  {path:'tablecrud', component:TablecrudComponent},
+  {path:'keyfilter', component:KeyfilterComponent},
 ];
 
 @NgModule({

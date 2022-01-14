@@ -61,6 +61,9 @@ import { ProductService } from './tablecrud/product.service';
 import {SliderModule} from 'primeng/slider';
 import {ContextMenuModule} from 'primeng/contextmenu';
 import {ProgressBarModule} from 'primeng/progressbar';
+import {MessageModule} from 'primeng/message';
+import {KeyFilterModule} from 'primeng/keyfilter';
+import { KeyfilterComponent } from './keyfilter/keyfilter.component';
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -90,7 +93,8 @@ import {ProgressBarModule} from 'primeng/progressbar';
     KnobComponent,
     ButtonComponent,
     SplitbuttonComponent,
-    TablecrudComponent
+    TablecrudComponent,
+    KeyfilterComponent
     
    
   ],
@@ -130,7 +134,9 @@ import {ProgressBarModule} from 'primeng/progressbar';
     ToolbarModule,
     ProgressBarModule,
     ContextMenuModule,
-    SliderModule
+    SliderModule,
+    KeyFilterModule,
+    MessageModule
   ],
   providers: [
     CountryService,
