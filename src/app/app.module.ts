@@ -75,6 +75,8 @@ import {SelectButtonModule} from 'primeng/selectbutton';
 import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
 import {ToggleButtonModule} from 'primeng/togglebutton';
+import { TreeselectComponent } from './treeselect/treeselect.component';
+import { NodeServiceTreeSelect } from './treeselect/nodeServiceTreeSelect';
 
 
 /**
@@ -114,7 +116,8 @@ import {ToggleButtonModule} from 'primeng/togglebutton';
     RatingComponent,
     SliderComponent,
     SelectbuttonComponent,
-    TooglebuttonComponent
+    TooglebuttonComponent,
+    TreeselectComponent
     
    
   ],
@@ -160,7 +163,7 @@ import {ToggleButtonModule} from 'primeng/togglebutton';
     ListboxModule,
     DividerModule,
     SelectButtonModule,
-    ToggleButtonModule
+    ToggleButtonModule,
     
   ],
   providers: [
@@ -168,7 +171,8 @@ import {ToggleButtonModule} from 'primeng/togglebutton';
     NodeService, // SEM ELE: injection error -> null provider for NodeService.
     MessageService,
     ProductService,
-    ConfirmationService
+    ConfirmationService,
+    NodeServiceTreeSelect
   ],
   bootstrap: [AppComponent]
 })

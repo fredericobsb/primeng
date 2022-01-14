@@ -29,6 +29,7 @@ import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
+import { TreeselectComponent } from './treeselect/treeselect.component';
 
 const routes: Routes = [
   {path:'formularios', component: FormularioComponent},
@@ -60,6 +61,7 @@ const routes: Routes = [
   {path:'slider', component:SliderComponent},
   {path:'selectButton', component:SelectbuttonComponent},
   {path:'tooglebutton', component:TooglebuttonComponent},
+  {path:'treeselect', component:TreeselectComponent},
 ];
 
 @NgModule({
