@@ -71,6 +71,8 @@ import { DividerModule } from "primeng/divider";
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
 import { SliderComponent } from './slider/slider.component';
+import {SelectButtonModule} from 'primeng/selectbutton';
+import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
 
 
 
@@ -109,7 +111,8 @@ import { SliderComponent } from './slider/slider.component';
     PasswordComponent,
     RadiobuttonComponent,
     RatingComponent,
-    SliderComponent
+    SliderComponent,
+    SelectbuttonComponent
     
    
   ],
@@ -153,7 +156,8 @@ import { SliderComponent } from './slider/slider.component';
     KeyFilterModule,
     MessageModule,
     ListboxModule,
-    DividerModule
+    DividerModule,
+    SelectButtonModule
     
   ],
   providers: [
