@@ -67,6 +67,8 @@ import { KeyfilterComponent } from './keyfilter/keyfilter.component';
 import { ListboxComponent } from './listbox/listbox.component';
 import {ListboxModule} from 'primeng/listbox';
 import { MultiselectComponent } from './multiselect/multiselect.component';
+import { PasswordComponent } from './password/password.component';
+import { DividerModule } from "primeng/divider";
 
 
 /**
@@ -100,7 +102,8 @@ import { MultiselectComponent } from './multiselect/multiselect.component';
     TablecrudComponent,
     KeyfilterComponent,
     ListboxComponent,
-    MultiselectComponent
+    MultiselectComponent,
+    PasswordComponent
     
    
   ],
@@ -143,7 +146,8 @@ import { MultiselectComponent } from './multiselect/multiselect.component';
     SliderModule,
     KeyFilterModule,
     MessageModule,
-    ListboxModule
+    ListboxModule,
+    DividerModule
   ],
   providers: [
     CountryService,
