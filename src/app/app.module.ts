@@ -77,6 +77,8 @@ import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
 import {ToggleButtonModule} from 'primeng/togglebutton';
 import { TreeselectComponent } from './treeselect/treeselect.component';
 import { NodeServiceTreeSelect } from './treeselect/nodeServiceTreeSelect';
+import { TreecheckboxComponent } from './treecheckbox/treecheckbox.component';
+import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
 
 
 /**
@@ -117,7 +119,8 @@ import { NodeServiceTreeSelect } from './treeselect/nodeServiceTreeSelect';
     SliderComponent,
     SelectbuttonComponent,
     TooglebuttonComponent,
-    TreeselectComponent
+    TreeselectComponent,
+    TreecheckboxComponent
     
    
   ],
@@ -164,6 +167,7 @@ import { NodeServiceTreeSelect } from './treeselect/nodeServiceTreeSelect';
     DividerModule,
     SelectButtonModule,
     ToggleButtonModule,
+    TriStateCheckboxModule
     
   ],
   providers: [

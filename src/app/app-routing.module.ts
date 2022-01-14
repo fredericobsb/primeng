@@ -29,6 +29,7 @@ import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
+import { TreecheckboxComponent } from './treecheckbox/treecheckbox.component';
 import { TreeselectComponent } from './treeselect/treeselect.component';
 
 const routes: Routes = [
@@ -62,6 +63,7 @@ const routes: Routes = [
   {path:'selectButton', component:SelectbuttonComponent},
   {path:'tooglebutton', component:TooglebuttonComponent},
   {path:'treeselect', component:TreeselectComponent},
+  {path:'tristatecheckbox', component:TreecheckboxComponent},
 ];
 
 @NgModule({
