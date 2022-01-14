@@ -70,6 +70,7 @@ import { PasswordComponent } from './password/password.component';
 import { DividerModule } from "primeng/divider";
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
+import { SliderComponent } from './slider/slider.component';
 
 
 
@@ -107,7 +108,8 @@ import { RatingComponent } from './rating/rating.component';
     MultiselectComponent,
     PasswordComponent,
     RadiobuttonComponent,
-    RatingComponent
+    RatingComponent,
+    SliderComponent
     
    
   ],

@@ -23,6 +23,7 @@ import { MultiselectComponent } from './multiselect/multiselect.component';
 import { PasswordComponent } from './password/password.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
+import { SliderComponent } from './slider/slider.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TextareaComponent } from './textarea/textarea.component';
@@ -54,6 +55,7 @@ const routes: Routes = [
   {path:'password', component:PasswordComponent},
   {path:'radiobutton', component:RadiobuttonComponent},
   {path:'rating', component:RatingComponent},
+  {path:'slider', component:SliderComponent},
 ];
 
 @NgModule({
