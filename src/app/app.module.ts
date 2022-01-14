@@ -69,6 +69,7 @@ import {ListboxModule} from 'primeng/listbox';
 import { MultiselectComponent } from './multiselect/multiselect.component';
 import { PasswordComponent } from './password/password.component';
 import { DividerModule } from "primeng/divider";
+import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 
 
 /**
@@ -103,7 +104,8 @@ import { DividerModule } from "primeng/divider";
     KeyfilterComponent,
     ListboxComponent,
     MultiselectComponent,
-    PasswordComponent
+    PasswordComponent,
+    RadiobuttonComponent
     
    
   ],
@@ -148,6 +150,7 @@ import { DividerModule } from "primeng/divider";
     MessageModule,
     ListboxModule,
     DividerModule
+    
   ],
   providers: [
     CountryService,
