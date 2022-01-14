@@ -64,6 +64,8 @@ import {ProgressBarModule} from 'primeng/progressbar';
 import {MessageModule} from 'primeng/message';
 import {KeyFilterModule} from 'primeng/keyfilter';
 import { KeyfilterComponent } from './keyfilter/keyfilter.component';
+import { ListboxComponent } from './listbox/listbox.component';
+import {ListboxModule} from 'primeng/listbox';
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -94,7 +96,8 @@ import { KeyfilterComponent } from './keyfilter/keyfilter.component';
     ButtonComponent,
     SplitbuttonComponent,
     TablecrudComponent,
-    KeyfilterComponent
+    KeyfilterComponent,
+    ListboxComponent
     
    
   ],
@@ -136,7 +139,8 @@ import { KeyfilterComponent } from './keyfilter/keyfilter.component';
     ContextMenuModule,
     SliderModule,
     KeyFilterModule,
-    MessageModule
+    MessageModule,
+    ListboxModule
   ],
   providers: [
     CountryService,
