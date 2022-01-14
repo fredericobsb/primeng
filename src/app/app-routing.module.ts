@@ -19,6 +19,7 @@ import { InvalidstateComponent } from './invalidstate/invalidstate.component';
 import { KeyfilterComponent } from './keyfilter/keyfilter.component';
 import { KnobComponent } from './knob/knob.component';
 import { ListboxComponent } from './listbox/listbox.component';
+import { MultiselectComponent } from './multiselect/multiselect.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TextareaComponent } from './textarea/textarea.component';
@@ -46,6 +47,7 @@ const routes: Routes = [
   {path:'tablecrud', component:TablecrudComponent},
   {path:'keyfilter', component:KeyfilterComponent},
   {path:'listbox', component:ListboxComponent},
+  {path:'multiselect', component:MultiselectComponent},
 ];
 
 @NgModule({

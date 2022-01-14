@@ -66,6 +66,8 @@ import {KeyFilterModule} from 'primeng/keyfilter';
 import { KeyfilterComponent } from './keyfilter/keyfilter.component';
 import { ListboxComponent } from './listbox/listbox.component';
 import {ListboxModule} from 'primeng/listbox';
+import { MultiselectComponent } from './multiselect/multiselect.component';
+
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -97,7 +99,8 @@ import {ListboxModule} from 'primeng/listbox';
     SplitbuttonComponent,
     TablecrudComponent,
     KeyfilterComponent,
-    ListboxComponent
+    ListboxComponent,
+    MultiselectComponent
     
    
   ],
