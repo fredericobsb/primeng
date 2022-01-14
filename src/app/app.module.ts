@@ -73,7 +73,8 @@ import { RatingComponent } from './rating/rating.component';
 import { SliderComponent } from './slider/slider.component';
 import {SelectButtonModule} from 'primeng/selectbutton';
 import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
-
+import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
+import {ToggleButtonModule} from 'primeng/togglebutton';
 
 
 /**
@@ -112,7 +113,8 @@ import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
     RadiobuttonComponent,
     RatingComponent,
     SliderComponent,
-    SelectbuttonComponent
+    SelectbuttonComponent,
+    TooglebuttonComponent
     
    
   ],
@@ -157,7 +159,8 @@ import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
     MessageModule,
     ListboxModule,
     DividerModule,
-    SelectButtonModule
+    SelectButtonModule,
+    ToggleButtonModule
     
   ],
   providers: [
