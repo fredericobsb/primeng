@@ -25,6 +25,7 @@ import { OrderlistComponent } from './orderlist/orderlist.component';
 import { OrgchartComponent } from './orgchart/orgchart.component';
 import { PaginatorComponent } from './paginator/paginator.component';
 import { PasswordComponent } from './password/password.component';
+import { PicklistComponent } from './picklist/picklist.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
 import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
@@ -72,6 +73,7 @@ const routes: Routes = [
   {path:'orderlist', component:OrderlistComponent},
   {path:'orgchart', component:OrgchartComponent},
   {path:'paginator', component:PaginatorComponent},
+  {path:'picklist', component:PicklistComponent},
 
 ];
 

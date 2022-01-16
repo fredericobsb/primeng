@@ -90,6 +90,9 @@ import { OrgchartComponent } from './orgchart/orgchart.component';
 import {OrganizationChartModule} from 'primeng/organizationchart';
 import { PaginatorComponent } from './paginator/paginator.component';
 import {PaginatorModule} from 'primeng/paginator';
+import { PicklistComponent } from './picklist/picklist.component';
+import {PickListModule} from 'primeng/picklist';
+import { ProductServicePickList } from './picklist/productservicepicklist';
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -134,7 +137,8 @@ import {PaginatorModule} from 'primeng/paginator';
     DataviewComponent,
     OrderlistComponent,
     OrgchartComponent,
-    PaginatorComponent
+    PaginatorComponent,
+    PicklistComponent
     
     
    
@@ -187,7 +191,8 @@ import {PaginatorModule} from 'primeng/paginator';
     PanelModule,
     OrderListModule,
     OrganizationChartModule,
-    PaginatorModule
+    PaginatorModule,
+    PickListModule
     
  
     
@@ -201,7 +206,8 @@ import {PaginatorModule} from 'primeng/paginator';
     ConfirmationService,
     NodeServiceTreeSelect,
     ProductServiceDataView,
-    ProductServiceOrderList
+    ProductServiceOrderList,
+    ProductServicePickList
   ],
   bootstrap: [AppComponent]
 })
