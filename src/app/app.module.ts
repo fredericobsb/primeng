@@ -102,6 +102,8 @@ import { PanelComponent } from './panel/panel.component';
 import { MenuModule } from 'primeng/menu';
 import { SpliterComponent } from './spliter/spliter.component';
 import { SplitterModule } from "primeng/splitter";
+import { ScrollpanelComponent } from './scrollpanel/scrollpanel.component';
+import { ScrollPanelModule } from 'primeng/scrollpanel';
 
 
 /**
@@ -153,7 +155,8 @@ import { SplitterModule } from "primeng/splitter";
     DividerComponent,
     FieldsetComponent,
     PanelComponent,
-    SpliterComponent
+    SpliterComponent,
+    ScrollpanelComponent
     
     
    
@@ -211,7 +214,8 @@ import { SplitterModule } from "primeng/splitter";
     CardModule,
     FieldsetModule,
     MenuModule,
-    SplitterModule
+    SplitterModule,
+   ScrollPanelModule 
     
  
     

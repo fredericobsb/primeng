@@ -32,6 +32,7 @@ import { PasswordComponent } from './password/password.component';
 import { PicklistComponent } from './picklist/picklist.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
+import { ScrollpanelComponent } from './scrollpanel/scrollpanel.component';
 import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
 import { SliderComponent } from './slider/slider.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
@@ -84,7 +85,8 @@ const routes: Routes = [
   {path:'divider', component:DividerComponent},
   {path:'fieldset', component:FieldsetComponent},
   {path:'panel', component:PanelComponent},
-  {path:'spliter', component:SpliterComponent}
+  {path:'spliter', component:SpliterComponent},
+  {path:'scrollpanel', component:ScrollpanelComponent}
 
 ];
 
