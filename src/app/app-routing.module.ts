@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ButtonComponent } from './button/button.component';
 import { CalendarComponent } from './calendar/calendar.component';
+import { CardComponent } from './card/card.component';
 import { CascadeselectComponent } from './cascadeselect/cascadeselect.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
@@ -74,6 +75,7 @@ const routes: Routes = [
   {path:'orgchart', component:OrgchartComponent},
   {path:'paginator', component:PaginatorComponent},
   {path:'picklist', component:PicklistComponent},
+  {path:'card', component:CardComponent},
 
 ];
 
