@@ -11,6 +11,7 @@ import { DataviewComponent } from './dataview/dataview.component';
 import { DividerComponent } from './divider/divider.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { EditorComponent } from './editor/editor.component';
+import { FieldsetComponent } from './fieldset/fieldset.component';
 import { FloatlabelComponent } from './floatlabel/floatlabel.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { InputgroupComponent } from './inputgroup/inputgroup.component';
@@ -78,6 +79,7 @@ const routes: Routes = [
   {path:'picklist', component:PicklistComponent},
   {path:'card', component:CardComponent},
   {path:'divider', component:DividerComponent},
+  {path:'fieldset', component:FieldsetComponent},
 
 ];
 

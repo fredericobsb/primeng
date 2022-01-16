@@ -96,6 +96,8 @@ import { ProductServicePickList } from './picklist/productservicepicklist';
 import { CardComponent } from './card/card.component';
 import {CardModule} from 'primeng/card';
 import { DividerComponent } from './divider/divider.component';
+import { FieldsetComponent } from './fieldset/fieldset.component';
+import {FieldsetModule} from 'primeng/fieldset';
 
 
 /**
@@ -144,7 +146,8 @@ import { DividerComponent } from './divider/divider.component';
     PaginatorComponent,
     PicklistComponent,
     CardComponent,
-    DividerComponent
+    DividerComponent,
+    FieldsetComponent
     
     
    
@@ -199,7 +202,8 @@ import { DividerComponent } from './divider/divider.component';
     OrganizationChartModule,
     PaginatorModule,
     PickListModule,
-    CardModule
+    CardModule,
+    FieldsetModule
     
  
     
