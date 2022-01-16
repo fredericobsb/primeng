@@ -7,6 +7,7 @@ import { CascadeselectComponent } from './cascadeselect/cascadeselect.component'
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
 import { ColorpickerComponent } from './colorpicker/colorpicker.component';
+import { ConfirmdialogComponent } from './confirmdialog/confirmdialog.component';
 import { DataviewComponent } from './dataview/dataview.component';
 import { DividerComponent } from './divider/divider.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
@@ -91,6 +92,7 @@ const routes: Routes = [
   {path:'scrollpanel', component:ScrollpanelComponent},
   {path:'tabview', component:TabviewComponent},
   {path:'toolbar', component:ToolbarComponent},
+  {path:'confirmdialog', component:ConfirmdialogComponent},
 ];
 
 @NgModule({

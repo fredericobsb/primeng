@@ -107,6 +107,8 @@ import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { TabviewComponent } from './tabview/tabview.component';
 import { TabViewModule } from 'primeng/tabview';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { ConfirmdialogComponent } from './confirmdialog/confirmdialog.component';
+
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -160,7 +162,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     SpliterComponent,
     ScrollpanelComponent,
     TabviewComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    ConfirmdialogComponent
     
     
    
@@ -221,6 +224,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     SplitterModule,
    ScrollPanelModule,
    TabViewModule
+   
 
     
  
@@ -236,7 +240,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     NodeServiceTreeSelect,
     ProductServiceDataView,
     ProductServiceOrderList,
-    ProductServicePickList
+    ProductServicePickList,
+    ConfirmationService
   ],
   bootstrap: [AppComponent]
 })
