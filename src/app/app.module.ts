@@ -119,6 +119,8 @@ import { SidebarModule } from 'primeng/sidebar';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { TooltipModule } from 'primeng/tooltip';
+import { FileuploadComponent } from './fileupload/fileupload.component';
+
 
 
 /**
@@ -179,7 +181,8 @@ import { TooltipModule } from 'primeng/tooltip';
     DinamicdialogComponent,
     ProductlistdemoComponent,
     SidebarComponent,
-    TooltipComponent
+    TooltipComponent,
+    FileuploadComponent
     
     
    

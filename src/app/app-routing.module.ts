@@ -15,6 +15,7 @@ import { DividerComponent } from './divider/divider.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { EditorComponent } from './editor/editor.component';
 import { FieldsetComponent } from './fieldset/fieldset.component';
+import { FileuploadComponent } from './fileupload/fileupload.component';
 import { FloatlabelComponent } from './floatlabel/floatlabel.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { InputgroupComponent } from './inputgroup/inputgroup.component';
@@ -101,6 +102,7 @@ const routes: Routes = [
   {path:'dinamicdialog', component:DinamicdialogComponent},
   {path:'sidebar', component:SidebarComponent},
   {path:'tooltip', component:TooltipComponent},
+  {path:'upload', component:FileuploadComponent},
 ];
 
 @NgModule({
