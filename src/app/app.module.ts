@@ -1,4 +1,4 @@
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -115,6 +115,8 @@ import { DialogService, DynamicDialogModule } from 'primeng/dynamicdialog';
 import { CommonModule } from '@angular/common';
 import { ProductlistdemoComponent } from './dinamicdialog/productlistdemo/productlistdemo.component';
 import { ProductServiceDinamicDialog } from './dinamicdialog/productlistdemo/productservicedinamicdialog';
+import { SidebarModule } from 'primeng/sidebar';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 /**
@@ -173,7 +175,8 @@ import { ProductServiceDinamicDialog } from './dinamicdialog/productlistdemo/pro
     ConfirmdialogComponent,
     ConfirmpopupComponent,
     DinamicdialogComponent,
-    ProductlistdemoComponent
+    ProductlistdemoComponent,
+    SidebarComponent
     
     
    
@@ -236,7 +239,9 @@ import { ProductServiceDinamicDialog } from './dinamicdialog/productlistdemo/pro
     TabViewModule,
     ConfirmPopupModule,
     DynamicDialogModule,//imports
-    CommonModule
+    CommonModule,
+    SidebarModule
+    
    
 
     

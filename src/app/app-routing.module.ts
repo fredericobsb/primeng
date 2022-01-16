@@ -37,6 +37,7 @@ import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
 import { ScrollpanelComponent } from './scrollpanel/scrollpanel.component';
 import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { SpliterComponent } from './spliter/spliter.component';
@@ -97,6 +98,7 @@ const routes: Routes = [
   {path:'confirmdialog', component:ConfirmdialogComponent},
   {path:'confirmpopup', component:ConfirmpopupComponent},
   {path:'dinamicdialog', component:DinamicdialogComponent},
+  {path:'sidebar', component:SidebarComponent},
 ];
 
 @NgModule({
