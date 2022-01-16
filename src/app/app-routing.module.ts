@@ -28,6 +28,7 @@ import { InvalidstateComponent } from './invalidstate/invalidstate.component';
 import { KeyfilterComponent } from './keyfilter/keyfilter.component';
 import { KnobComponent } from './knob/knob.component';
 import { ListboxComponent } from './listbox/listbox.component';
+import { MegamenuComponent } from './megamenu/megamenu.component';
 import { MultiselectComponent } from './multiselect/multiselect.component';
 import { OrderlistComponent } from './orderlist/orderlist.component';
 import { OrgchartComponent } from './orgchart/orgchart.component';
@@ -105,6 +106,7 @@ const routes: Routes = [
   {path:'tooltip', component:TooltipComponent},
   {path:'upload', component:FileuploadComponent},
   {path:'breadcrumb', component:BreadcrumbComponent},
+  {path:'megamenu', component:MegamenuComponent},
 ];
 
 @NgModule({

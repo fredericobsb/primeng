@@ -122,6 +122,8 @@ import { TooltipModule } from 'primeng/tooltip';
 import { FileuploadComponent } from './fileupload/fileupload.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { BreadcrumbModule } from 'primeng/breadcrumb';
+import { MegamenuComponent } from './megamenu/megamenu.component';
+import { MegaMenuModule } from 'primeng/megamenu';
 
 
 
@@ -185,7 +187,8 @@ import { BreadcrumbModule } from 'primeng/breadcrumb';
     SidebarComponent,
     TooltipComponent,
     FileuploadComponent,
-    BreadcrumbComponent
+    BreadcrumbComponent,
+    MegamenuComponent
     
     
    
@@ -251,7 +254,8 @@ import { BreadcrumbModule } from 'primeng/breadcrumb';
     CommonModule,
     SidebarModule,
     TooltipModule,
-    BreadcrumbModule
+    BreadcrumbModule,
+    MegaMenuModule
   ],
   providers: [
     CountryService,
