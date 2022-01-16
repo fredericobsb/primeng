@@ -21,6 +21,7 @@ import { KeyfilterComponent } from './keyfilter/keyfilter.component';
 import { KnobComponent } from './knob/knob.component';
 import { ListboxComponent } from './listbox/listbox.component';
 import { MultiselectComponent } from './multiselect/multiselect.component';
+import { OrderlistComponent } from './orderlist/orderlist.component';
 import { PasswordComponent } from './password/password.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
@@ -65,7 +66,11 @@ const routes: Routes = [
   {path:'tooglebutton', component:TooglebuttonComponent},
   {path:'treeselect', component:TreeselectComponent},
   {path:'tristatecheckbox', component:TreecheckboxComponent},
-  {path:'dataview', component:DataviewComponent}
+  {path:'dataview', component:DataviewComponent},
+  {path:'orderlist', component:OrderlistComponent},
+
+
+
 ];
 
 @NgModule({

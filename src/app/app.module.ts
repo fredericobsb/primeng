@@ -83,7 +83,9 @@ import { DataviewComponent } from './dataview/dataview.component';
 import {DataViewModule} from 'primeng/dataview';
 import {PanelModule} from 'primeng/panel';
 import { ProductServiceDataView } from './dataview/productservicedataview';
-
+import { OrderlistComponent } from './orderlist/orderlist.component';
+import {OrderListModule} from 'primeng/orderlist';
+import { ProductServiceOrderList } from './orderlist/productserviceorderlist';
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -125,7 +127,9 @@ import { ProductServiceDataView } from './dataview/productservicedataview';
     TooglebuttonComponent,
     TreeselectComponent,
     TreecheckboxComponent,
-    DataviewComponent
+    DataviewComponent,
+    OrderlistComponent
+    
     
    
   ],
@@ -175,6 +179,9 @@ import { ProductServiceDataView } from './dataview/productservicedataview';
     TriStateCheckboxModule,
     DataViewModule,
     PanelModule,
+    OrderListModule
+    
+ 
     
     
   ],
@@ -185,7 +192,8 @@ import { ProductServiceDataView } from './dataview/productservicedataview';
     ProductService,
     ConfirmationService,
     NodeServiceTreeSelect,
-    ProductServiceDataView
+    ProductServiceDataView,
+    ProductServiceOrderList
   ],
   bootstrap: [AppComponent]
 })
