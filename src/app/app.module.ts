@@ -86,6 +86,8 @@ import { ProductServiceDataView } from './dataview/productservicedataview';
 import { OrderlistComponent } from './orderlist/orderlist.component';
 import {OrderListModule} from 'primeng/orderlist';
 import { ProductServiceOrderList } from './orderlist/productserviceorderlist';
+import { OrgchartComponent } from './orgchart/orgchart.component';
+import {OrganizationChartModule} from 'primeng/organizationchart';
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -128,7 +130,8 @@ import { ProductServiceOrderList } from './orderlist/productserviceorderlist';
     TreeselectComponent,
     TreecheckboxComponent,
     DataviewComponent,
-    OrderlistComponent
+    OrderlistComponent,
+    OrgchartComponent
     
     
    
@@ -179,7 +182,8 @@ import { ProductServiceOrderList } from './orderlist/productserviceorderlist';
     TriStateCheckboxModule,
     DataViewModule,
     PanelModule,
-    OrderListModule
+    OrderListModule,
+    OrganizationChartModule
     
  
     

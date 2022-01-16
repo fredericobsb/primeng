@@ -22,6 +22,7 @@ import { KnobComponent } from './knob/knob.component';
 import { ListboxComponent } from './listbox/listbox.component';
 import { MultiselectComponent } from './multiselect/multiselect.component';
 import { OrderlistComponent } from './orderlist/orderlist.component';
+import { OrgchartComponent } from './orgchart/orgchart.component';
 import { PasswordComponent } from './password/password.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
@@ -68,7 +69,7 @@ const routes: Routes = [
   {path:'tristatecheckbox', component:TreecheckboxComponent},
   {path:'dataview', component:DataviewComponent},
   {path:'orderlist', component:OrderlistComponent},
-
+  {path:'orgchart', component:OrgchartComponent},
 
 
 ];
