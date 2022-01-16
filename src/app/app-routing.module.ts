@@ -8,7 +8,9 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
 import { ColorpickerComponent } from './colorpicker/colorpicker.component';
 import { ConfirmdialogComponent } from './confirmdialog/confirmdialog.component';
+import { ConfirmpopupComponent } from './confirmpopup/confirmpopup.component';
 import { DataviewComponent } from './dataview/dataview.component';
+import { DinamicdialogComponent } from './dinamicdialog/dinamicdialog.component';
 import { DividerComponent } from './divider/divider.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { EditorComponent } from './editor/editor.component';
@@ -93,6 +95,8 @@ const routes: Routes = [
   {path:'tabview', component:TabviewComponent},
   {path:'toolbar', component:ToolbarComponent},
   {path:'confirmdialog', component:ConfirmdialogComponent},
+  {path:'confirmpopup', component:ConfirmpopupComponent},
+  {path:'dinamicdialog', component:DinamicdialogComponent},
 ];
 
 @NgModule({

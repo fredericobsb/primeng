@@ -108,6 +108,13 @@ import { TabviewComponent } from './tabview/tabview.component';
 import { TabViewModule } from 'primeng/tabview';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ConfirmdialogComponent } from './confirmdialog/confirmdialog.component';
+import { ConfirmpopupComponent } from './confirmpopup/confirmpopup.component';
+import { ConfirmPopupModule } from "primeng/confirmpopup";
+import { DinamicdialogComponent } from './dinamicdialog/dinamicdialog.component';
+import { DialogService, DynamicDialogModule } from 'primeng/dynamicdialog';
+import { CommonModule } from '@angular/common';
+import { ProductlistdemoComponent } from './dinamicdialog/productlistdemo/productlistdemo.component';
+import { ProductServiceDinamicDialog } from './dinamicdialog/productlistdemo/productservicedinamicdialog';
 
 
 /**
@@ -163,7 +170,10 @@ import { ConfirmdialogComponent } from './confirmdialog/confirmdialog.component'
     ScrollpanelComponent,
     TabviewComponent,
     ToolbarComponent,
-    ConfirmdialogComponent
+    ConfirmdialogComponent,
+    ConfirmpopupComponent,
+    DinamicdialogComponent,
+    ProductlistdemoComponent
     
     
    
@@ -222,8 +232,11 @@ import { ConfirmdialogComponent } from './confirmdialog/confirmdialog.component'
     FieldsetModule,
     MenuModule,
     SplitterModule,
-   ScrollPanelModule,
-   TabViewModule
+    ScrollPanelModule,
+    TabViewModule,
+    ConfirmPopupModule,
+    DynamicDialogModule,//imports
+    CommonModule
    
 
     
@@ -241,8 +254,13 @@ import { ConfirmdialogComponent } from './confirmdialog/confirmdialog.component'
     ProductServiceDataView,
     ProductServiceOrderList,
     ProductServicePickList,
-    ConfirmationService
+    ConfirmationService,
+    DialogService,
+    ProductServiceDinamicDialog
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents:[
+    ProductlistdemoComponent
+  ]
 })
 export class AppModule { }
