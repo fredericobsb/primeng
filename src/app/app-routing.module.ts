@@ -27,6 +27,7 @@ import { MultiselectComponent } from './multiselect/multiselect.component';
 import { OrderlistComponent } from './orderlist/orderlist.component';
 import { OrgchartComponent } from './orgchart/orgchart.component';
 import { PaginatorComponent } from './paginator/paginator.component';
+import { PanelComponent } from './panel/panel.component';
 import { PasswordComponent } from './password/password.component';
 import { PicklistComponent } from './picklist/picklist.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
@@ -39,6 +40,7 @@ import { TextareaComponent } from './textarea/textarea.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
 import { TreecheckboxComponent } from './treecheckbox/treecheckbox.component';
 import { TreeselectComponent } from './treeselect/treeselect.component';
+
 
 const routes: Routes = [
   {path:'formularios', component: FormularioComponent},
@@ -80,6 +82,7 @@ const routes: Routes = [
   {path:'card', component:CardComponent},
   {path:'divider', component:DividerComponent},
   {path:'fieldset', component:FieldsetComponent},
+  {path:'panel', component:PanelComponent}
 
 ];
 
