@@ -1,0 +1,10 @@
+No showcase, o codigo do input dá erro no html:
+
+<input type="search" pInputText placeholder="Search by Name" (input)="dv.filter($event.target.value)">
+
+* Para retirar esse erro, passe o "$any" no html:
+
+
+<input type="search" pInputText placeholder="Search by Name" (input)="dv.filter($any($event.target).value)">
+
+==> (input) = "dv.filter($any($event.target).value)"

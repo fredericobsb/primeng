@@ -6,6 +6,7 @@ import { CascadeselectComponent } from './cascadeselect/cascadeselect.component'
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
 import { ColorpickerComponent } from './colorpicker/colorpicker.component';
+import { DataviewComponent } from './dataview/dataview.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { EditorComponent } from './editor/editor.component';
 import { FloatlabelComponent } from './floatlabel/floatlabel.component';
@@ -64,6 +65,7 @@ const routes: Routes = [
   {path:'tooglebutton', component:TooglebuttonComponent},
   {path:'treeselect', component:TreeselectComponent},
   {path:'tristatecheckbox', component:TreecheckboxComponent},
+  {path:'dataview', component:DataviewComponent}
 ];
 
 @NgModule({

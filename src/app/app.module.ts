@@ -79,6 +79,10 @@ import { TreeselectComponent } from './treeselect/treeselect.component';
 import { NodeServiceTreeSelect } from './treeselect/nodeServiceTreeSelect';
 import { TreecheckboxComponent } from './treecheckbox/treecheckbox.component';
 import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
+import { DataviewComponent } from './dataview/dataview.component';
+import {DataViewModule} from 'primeng/dataview';
+import {PanelModule} from 'primeng/panel';
+import { ProductServiceDataView } from './dataview/productservicedataview';
 
 
 /**
@@ -120,7 +124,8 @@ import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
     SelectbuttonComponent,
     TooglebuttonComponent,
     TreeselectComponent,
-    TreecheckboxComponent
+    TreecheckboxComponent,
+    DataviewComponent
     
    
   ],
@@ -167,7 +172,10 @@ import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
     DividerModule,
     SelectButtonModule,
     ToggleButtonModule,
-    TriStateCheckboxModule
+    TriStateCheckboxModule,
+    DataViewModule,
+    PanelModule,
+    
     
   ],
   providers: [
@@ -176,7 +184,8 @@ import {TriStateCheckboxModule} from 'primeng/tristatecheckbox';
     MessageService,
     ProductService,
     ConfirmationService,
-    NodeServiceTreeSelect
+    NodeServiceTreeSelect,
+    ProductServiceDataView
   ],
   bootstrap: [AppComponent]
 })
