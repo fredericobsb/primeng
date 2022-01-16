@@ -117,6 +117,8 @@ import { ProductlistdemoComponent } from './dinamicdialog/productlistdemo/produc
 import { ProductServiceDinamicDialog } from './dinamicdialog/productlistdemo/productservicedinamicdialog';
 import { SidebarModule } from 'primeng/sidebar';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
+import { TooltipModule } from 'primeng/tooltip';
 
 
 /**
@@ -176,7 +178,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     ConfirmpopupComponent,
     DinamicdialogComponent,
     ProductlistdemoComponent,
-    SidebarComponent
+    SidebarComponent,
+    TooltipComponent
     
     
    
@@ -240,14 +243,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     ConfirmPopupModule,
     DynamicDialogModule,//imports
     CommonModule,
-    SidebarModule
-    
-   
-
-    
- 
-    
-    
+    SidebarModule,
+    TooltipModule
   ],
   providers: [
     CountryService,

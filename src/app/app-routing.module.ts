@@ -46,6 +46,7 @@ import { TabviewComponent } from './tabview/tabview.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
 import { TreecheckboxComponent } from './treecheckbox/treecheckbox.component';
 import { TreeselectComponent } from './treeselect/treeselect.component';
 
@@ -99,6 +100,7 @@ const routes: Routes = [
   {path:'confirmpopup', component:ConfirmpopupComponent},
   {path:'dinamicdialog', component:DinamicdialogComponent},
   {path:'sidebar', component:SidebarComponent},
+  {path:'tooltip', component:TooltipComponent},
 ];
 
 @NgModule({
