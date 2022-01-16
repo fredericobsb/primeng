@@ -124,6 +124,9 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { BreadcrumbModule } from 'primeng/breadcrumb';
 import { MegamenuComponent } from './megamenu/megamenu.component';
 import { MegaMenuModule } from 'primeng/megamenu';
+import { StepComponent } from './step/step.component';
+import { StepsModule } from 'primeng/steps';
+import { TicketService } from './step/ticketservice';
 
 
 
@@ -188,7 +191,8 @@ import { MegaMenuModule } from 'primeng/megamenu';
     TooltipComponent,
     FileuploadComponent,
     BreadcrumbComponent,
-    MegamenuComponent
+    MegamenuComponent,
+    StepComponent
     
     
    
@@ -255,7 +259,8 @@ import { MegaMenuModule } from 'primeng/megamenu';
     SidebarModule,
     TooltipModule,
     BreadcrumbModule,
-    MegaMenuModule
+    MegaMenuModule,
+    StepsModule
   ],
   providers: [
     CountryService,
@@ -269,7 +274,8 @@ import { MegaMenuModule } from 'primeng/megamenu';
     ProductServicePickList,
     ConfirmationService,
     DialogService,
-    ProductServiceDinamicDialog
+    ProductServiceDinamicDialog,
+    TicketService
   ],
   bootstrap: [AppComponent],
   entryComponents:[

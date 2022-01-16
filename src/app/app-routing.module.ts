@@ -44,6 +44,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { SpliterComponent } from './spliter/spliter.component';
+import { StepComponent } from './step/step.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TabviewComponent } from './tabview/tabview.component';
 import { TextareaComponent } from './textarea/textarea.component';
@@ -107,6 +108,8 @@ const routes: Routes = [
   {path:'upload', component:FileuploadComponent},
   {path:'breadcrumb', component:BreadcrumbComponent},
   {path:'megamenu', component:MegamenuComponent},
+  {path:'breadcrumb', component:BreadcrumbComponent},
+  {path:'step', component:StepComponent},
 ];
 
 @NgModule({
