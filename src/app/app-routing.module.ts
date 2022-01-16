@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonComponent } from './button/button.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { CardComponent } from './card/card.component';
@@ -103,6 +104,7 @@ const routes: Routes = [
   {path:'sidebar', component:SidebarComponent},
   {path:'tooltip', component:TooltipComponent},
   {path:'upload', component:FileuploadComponent},
+  {path:'breadcrumb', component:BreadcrumbComponent},
 ];
 
 @NgModule({

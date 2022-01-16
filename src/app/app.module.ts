@@ -120,6 +120,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { TooltipModule } from 'primeng/tooltip';
 import { FileuploadComponent } from './fileupload/fileupload.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { BreadcrumbModule } from 'primeng/breadcrumb';
 
 
 
@@ -182,7 +184,8 @@ import { FileuploadComponent } from './fileupload/fileupload.component';
     ProductlistdemoComponent,
     SidebarComponent,
     TooltipComponent,
-    FileuploadComponent
+    FileuploadComponent,
+    BreadcrumbComponent
     
     
    
@@ -247,7 +250,8 @@ import { FileuploadComponent } from './fileupload/fileupload.component';
     DynamicDialogModule,//imports
     CommonModule,
     SidebarModule,
-    TooltipModule
+    TooltipModule,
+    BreadcrumbModule
   ],
   providers: [
     CountryService,
