@@ -41,6 +41,7 @@ import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TabviewComponent } from './tabview/tabview.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 import { TreecheckboxComponent } from './treecheckbox/treecheckbox.component';
 import { TreeselectComponent } from './treeselect/treeselect.component';
 
@@ -89,6 +90,7 @@ const routes: Routes = [
   {path:'spliter', component:SpliterComponent},
   {path:'scrollpanel', component:ScrollpanelComponent},
   {path:'tabview', component:TabviewComponent},
+  {path:'toolbar', component:ToolbarComponent},
 ];
 
 @NgModule({

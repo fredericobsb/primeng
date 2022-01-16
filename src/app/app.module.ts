@@ -106,6 +106,7 @@ import { ScrollpanelComponent } from './scrollpanel/scrollpanel.component';
 import { ScrollPanelModule } from 'primeng/scrollpanel';
 import { TabviewComponent } from './tabview/tabview.component';
 import { TabViewModule } from 'primeng/tabview';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -158,7 +159,8 @@ import { TabViewModule } from 'primeng/tabview';
     PanelComponent,
     SpliterComponent,
     ScrollpanelComponent,
-    TabviewComponent
+    TabviewComponent,
+    ToolbarComponent
     
     
    
