@@ -8,6 +8,7 @@ import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
 import { ColorpickerComponent } from './colorpicker/colorpicker.component';
 import { DataviewComponent } from './dataview/dataview.component';
+import { DividerComponent } from './divider/divider.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { EditorComponent } from './editor/editor.component';
 import { FloatlabelComponent } from './floatlabel/floatlabel.component';
@@ -76,6 +77,7 @@ const routes: Routes = [
   {path:'paginator', component:PaginatorComponent},
   {path:'picklist', component:PicklistComponent},
   {path:'card', component:CardComponent},
+  {path:'divider', component:DividerComponent},
 
 ];
 

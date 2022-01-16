@@ -95,6 +95,8 @@ import {PickListModule} from 'primeng/picklist';
 import { ProductServicePickList } from './picklist/productservicepicklist';
 import { CardComponent } from './card/card.component';
 import {CardModule} from 'primeng/card';
+import { DividerComponent } from './divider/divider.component';
+
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -141,7 +143,8 @@ import {CardModule} from 'primeng/card';
     OrgchartComponent,
     PaginatorComponent,
     PicklistComponent,
-    CardComponent
+    CardComponent,
+    DividerComponent
     
     
    
