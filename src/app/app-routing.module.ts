@@ -38,6 +38,7 @@ import { SliderComponent } from './slider/slider.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { SpliterComponent } from './spliter/spliter.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
+import { TabviewComponent } from './tabview/tabview.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
 import { TreecheckboxComponent } from './treecheckbox/treecheckbox.component';
@@ -86,8 +87,8 @@ const routes: Routes = [
   {path:'fieldset', component:FieldsetComponent},
   {path:'panel', component:PanelComponent},
   {path:'spliter', component:SpliterComponent},
-  {path:'scrollpanel', component:ScrollpanelComponent}
-
+  {path:'scrollpanel', component:ScrollpanelComponent},
+  {path:'tabview', component:TabviewComponent},
 ];
 
 @NgModule({

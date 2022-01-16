@@ -104,7 +104,8 @@ import { SpliterComponent } from './spliter/spliter.component';
 import { SplitterModule } from "primeng/splitter";
 import { ScrollpanelComponent } from './scrollpanel/scrollpanel.component';
 import { ScrollPanelModule } from 'primeng/scrollpanel';
-
+import { TabviewComponent } from './tabview/tabview.component';
+import { TabViewModule } from 'primeng/tabview';
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -156,7 +157,8 @@ import { ScrollPanelModule } from 'primeng/scrollpanel';
     FieldsetComponent,
     PanelComponent,
     SpliterComponent,
-    ScrollpanelComponent
+    ScrollpanelComponent,
+    TabviewComponent
     
     
    
@@ -215,7 +217,9 @@ import { ScrollPanelModule } from 'primeng/scrollpanel';
     FieldsetModule,
     MenuModule,
     SplitterModule,
-   ScrollPanelModule 
+   ScrollPanelModule,
+   TabViewModule
+
     
  
     
