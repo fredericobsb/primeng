@@ -88,6 +88,8 @@ import {OrderListModule} from 'primeng/orderlist';
 import { ProductServiceOrderList } from './orderlist/productserviceorderlist';
 import { OrgchartComponent } from './orgchart/orgchart.component';
 import {OrganizationChartModule} from 'primeng/organizationchart';
+import { PaginatorComponent } from './paginator/paginator.component';
+import {PaginatorModule} from 'primeng/paginator';
 
 /**
  AVISO DE QUANDO VOCE ESQUECEU DE IMPORTAR O MODULO NO ng.module.ts:
@@ -131,7 +133,8 @@ import {OrganizationChartModule} from 'primeng/organizationchart';
     TreecheckboxComponent,
     DataviewComponent,
     OrderlistComponent,
-    OrgchartComponent
+    OrgchartComponent,
+    PaginatorComponent
     
     
    
@@ -183,7 +186,8 @@ import {OrganizationChartModule} from 'primeng/organizationchart';
     DataViewModule,
     PanelModule,
     OrderListModule,
-    OrganizationChartModule
+    OrganizationChartModule,
+    PaginatorModule
     
  
     

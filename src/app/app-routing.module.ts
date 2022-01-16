@@ -23,6 +23,7 @@ import { ListboxComponent } from './listbox/listbox.component';
 import { MultiselectComponent } from './multiselect/multiselect.component';
 import { OrderlistComponent } from './orderlist/orderlist.component';
 import { OrgchartComponent } from './orgchart/orgchart.component';
+import { PaginatorComponent } from './paginator/paginator.component';
 import { PasswordComponent } from './password/password.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { RatingComponent } from './rating/rating.component';
@@ -70,7 +71,7 @@ const routes: Routes = [
   {path:'dataview', component:DataviewComponent},
   {path:'orderlist', component:OrderlistComponent},
   {path:'orgchart', component:OrgchartComponent},
-
+  {path:'paginator', component:PaginatorComponent},
 
 ];
 
