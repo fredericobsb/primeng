@@ -35,6 +35,7 @@ import { RatingComponent } from './rating/rating.component';
 import { SelectbuttonComponent } from './selectbutton/selectbutton.component';
 import { SliderComponent } from './slider/slider.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
+import { SpliterComponent } from './spliter/spliter.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
@@ -82,7 +83,8 @@ const routes: Routes = [
   {path:'card', component:CardComponent},
   {path:'divider', component:DividerComponent},
   {path:'fieldset', component:FieldsetComponent},
-  {path:'panel', component:PanelComponent}
+  {path:'panel', component:PanelComponent},
+  {path:'spliter', component:SpliterComponent}
 
 ];
 

@@ -100,6 +100,8 @@ import { FieldsetComponent } from './fieldset/fieldset.component';
 import {FieldsetModule} from 'primeng/fieldset';
 import { PanelComponent } from './panel/panel.component';
 import { MenuModule } from 'primeng/menu';
+import { SpliterComponent } from './spliter/spliter.component';
+import { SplitterModule } from "primeng/splitter";
 
 
 /**
@@ -150,7 +152,8 @@ import { MenuModule } from 'primeng/menu';
     CardComponent,
     DividerComponent,
     FieldsetComponent,
-    PanelComponent
+    PanelComponent,
+    SpliterComponent
     
     
    
@@ -207,7 +210,8 @@ import { MenuModule } from 'primeng/menu';
     PickListModule,
     CardModule,
     FieldsetModule,
-    MenuModule
+    MenuModule,
+    SplitterModule
     
  
     
