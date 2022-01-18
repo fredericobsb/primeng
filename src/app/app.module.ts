@@ -138,6 +138,7 @@ import { TieredMenuModule } from 'primeng/tieredmenu';
 import { MensagensComponent } from './mensagens/mensagens.component';
 
 import {MessagesModule} from 'primeng/messages';
+import { ToastComponent } from './toast/toast.component';
 
 
 
@@ -211,7 +212,8 @@ import {MessagesModule} from 'primeng/messages';
     Step4Component,
     TabmenuComponent,
     TieredmenuComponent,
-    MensagensComponent
+    MensagensComponent,
+    ToastComponent
     
     
     
@@ -284,6 +286,7 @@ import {MessagesModule} from 'primeng/messages';
     TreeModule,
     TabMenuModule,
     TieredMenuModule
+  
   ],
   providers: [
     CountryService,

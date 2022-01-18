@@ -54,6 +54,7 @@ import { TabmenuComponent } from './tabmenu/tabmenu.component';
 import { TabviewComponent } from './tabview/tabview.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { TieredmenuComponent } from './tieredmenu/tieredmenu.component';
+import { ToastComponent } from './toast/toast.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
@@ -122,6 +123,7 @@ const routes: Routes = [
   {path:'tabmenu', component:TabmenuComponent},
   {path:'tieredmenu', component:TieredmenuComponent},
   {path:'mensagens', component:MensagensComponent},
+  {path:'toast', component:ToastComponent},
 ];
 
 @NgModule({
