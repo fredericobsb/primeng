@@ -4,6 +4,7 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonComponent } from './button/button.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { CardComponent } from './card/card.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
 import { CascadeselectComponent } from './cascadeselect/cascadeselect.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { ChipsComponent } from './chips/chips.component';
@@ -124,6 +125,7 @@ const routes: Routes = [
   {path:'tieredmenu', component:TieredmenuComponent},
   {path:'mensagens', component:MensagensComponent},
   {path:'toast', component:ToastComponent},
+  {path:'carrousel', component:CarrouselComponent},
 ];
 
 @NgModule({

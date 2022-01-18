@@ -139,6 +139,9 @@ import { MensagensComponent } from './mensagens/mensagens.component';
 
 import {MessagesModule} from 'primeng/messages';
 import { ToastComponent } from './toast/toast.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
+import {CarouselModule} from 'primeng/carousel';
+import { ProductServiceCarrousel } from './carrousel/productservicecarrousel';
 
 
 
@@ -213,7 +216,8 @@ import { ToastComponent } from './toast/toast.component';
     TabmenuComponent,
     TieredmenuComponent,
     MensagensComponent,
-    ToastComponent
+    ToastComponent,
+    CarrouselComponent
     
     
     
@@ -285,7 +289,8 @@ import { ToastComponent } from './toast/toast.component';
     StepsModule,
     TreeModule,
     TabMenuModule,
-    TieredMenuModule
+    TieredMenuModule,
+    CarouselModule
   
   ],
   providers: [
@@ -302,7 +307,8 @@ import { ToastComponent } from './toast/toast.component';
     DialogService,
     ProductServiceDinamicDialog,
     TicketService,
-    MessagesModule
+    MessagesModule,
+    ProductServiceCarrousel
   ],
   bootstrap: [AppComponent],
   entryComponents:[
