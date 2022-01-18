@@ -124,9 +124,14 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { BreadcrumbModule } from 'primeng/breadcrumb';
 import { MegamenuComponent } from './megamenu/megamenu.component';
 import { MegaMenuModule } from 'primeng/megamenu';
-import { StepComponent } from './step/step.component';
 import { StepsModule } from 'primeng/steps';
-import { TicketService } from './step/ticketservice';
+import { Step1Component } from './step/step1/step1.component';
+import { Step2Component } from './step/step2/step2.component';
+import { Step3Component } from './step/step3/step3.component';
+import { Step4Component } from './step/step4/step4.component';
+import { TicketService } from './step/step1/ticketService';
+import { TreeModule } from 'primeng/tree';
+
 
 
 
@@ -192,7 +197,11 @@ import { TicketService } from './step/ticketservice';
     FileuploadComponent,
     BreadcrumbComponent,
     MegamenuComponent,
-    StepComponent
+    Step1Component,
+    Step2Component,
+    Step3Component,
+    Step4Component
+    
     
     
    
@@ -260,7 +269,8 @@ import { TicketService } from './step/ticketservice';
     TooltipModule,
     BreadcrumbModule,
     MegaMenuModule,
-    StepsModule
+    StepsModule,
+    TreeModule
   ],
   providers: [
     CountryService,

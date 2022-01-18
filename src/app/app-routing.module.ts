@@ -44,7 +44,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SplitbuttonComponent } from './splitbutton/splitbutton.component';
 import { SpliterComponent } from './spliter/spliter.component';
-import { StepComponent } from './step/step.component';
+import { Step1Component } from './step/step1/step1.component';
+import { Step2Component } from './step/step2/step2.component';
+import { Step3Component } from './step/step3/step3.component';
+import { Step4Component } from './step/step4/step4.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TabviewComponent } from './tabview/tabview.component';
 import { TextareaComponent } from './textarea/textarea.component';
@@ -109,7 +112,10 @@ const routes: Routes = [
   {path:'breadcrumb', component:BreadcrumbComponent},
   {path:'megamenu', component:MegamenuComponent},
   {path:'breadcrumb', component:BreadcrumbComponent},
-  {path:'step', component:StepComponent},
+  {path:'step', component:Step1Component},
+  {path:'step2', component:Step2Component},
+  {path:'step3', component:Step3Component},
+  {path:'step4', component:Step4Component}
 ];
 
 @NgModule({
