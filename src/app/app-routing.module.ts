@@ -52,6 +52,7 @@ import { TablecrudComponent } from './tablecrud/tablecrud.component';
 import { TabmenuComponent } from './tabmenu/tabmenu.component';
 import { TabviewComponent } from './tabview/tabview.component';
 import { TextareaComponent } from './textarea/textarea.component';
+import { TieredmenuComponent } from './tieredmenu/tieredmenu.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
@@ -118,6 +119,7 @@ const routes: Routes = [
   {path:'step3', component:Step3Component},
   {path:'step4', component:Step4Component},
   {path:'tabmenu', component:TabmenuComponent},
+  {path:'tieredmenu', component:TieredmenuComponent},
 ];
 
 @NgModule({
