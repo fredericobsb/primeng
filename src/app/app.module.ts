@@ -131,6 +131,8 @@ import { Step3Component } from './step/step3/step3.component';
 import { Step4Component } from './step/step4/step4.component';
 import { TicketService } from './step/step1/ticketService';
 import { TreeModule } from 'primeng/tree';
+import { TabmenuComponent } from './tabmenu/tabmenu.component';
+import { TabMenuModule } from 'primeng/tabmenu';
 
 
 
@@ -200,7 +202,8 @@ import { TreeModule } from 'primeng/tree';
     Step1Component,
     Step2Component,
     Step3Component,
-    Step4Component
+    Step4Component,
+    TabmenuComponent
     
     
     
@@ -270,7 +273,8 @@ import { TreeModule } from 'primeng/tree';
     BreadcrumbModule,
     MegaMenuModule,
     StepsModule,
-    TreeModule
+    TreeModule,
+    TabMenuModule
   ],
   providers: [
     CountryService,

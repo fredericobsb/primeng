@@ -49,6 +49,7 @@ import { Step2Component } from './step/step2/step2.component';
 import { Step3Component } from './step/step3/step3.component';
 import { Step4Component } from './step/step4/step4.component';
 import { TablecrudComponent } from './tablecrud/tablecrud.component';
+import { TabmenuComponent } from './tabmenu/tabmenu.component';
 import { TabviewComponent } from './tabview/tabview.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { TooglebuttonComponent } from './tooglebutton/tooglebutton.component';
@@ -115,7 +116,8 @@ const routes: Routes = [
   {path:'step', component:Step1Component},
   {path:'step2', component:Step2Component},
   {path:'step3', component:Step3Component},
-  {path:'step4', component:Step4Component}
+  {path:'step4', component:Step4Component},
+  {path:'tabmenu', component:TabmenuComponent},
 ];
 
 @NgModule({
