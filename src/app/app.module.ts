@@ -135,6 +135,10 @@ import { TabmenuComponent } from './tabmenu/tabmenu.component';
 import { TabMenuModule } from 'primeng/tabmenu';
 import { TieredmenuComponent } from './tieredmenu/tieredmenu.component';
 import { TieredMenuModule } from 'primeng/tieredmenu';
+import { MensagensComponent } from './mensagens/mensagens.component';
+
+import {MessagesModule} from 'primeng/messages';
+
 
 
 
@@ -206,7 +210,8 @@ import { TieredMenuModule } from 'primeng/tieredmenu';
     Step3Component,
     Step4Component,
     TabmenuComponent,
-    TieredmenuComponent
+    TieredmenuComponent,
+    MensagensComponent
     
     
     
@@ -293,7 +298,8 @@ import { TieredMenuModule } from 'primeng/tieredmenu';
     ConfirmationService,
     DialogService,
     ProductServiceDinamicDialog,
-    TicketService
+    TicketService,
+    MessagesModule
   ],
   bootstrap: [AppComponent],
   entryComponents:[

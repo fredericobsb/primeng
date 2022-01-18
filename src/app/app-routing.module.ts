@@ -29,6 +29,7 @@ import { KeyfilterComponent } from './keyfilter/keyfilter.component';
 import { KnobComponent } from './knob/knob.component';
 import { ListboxComponent } from './listbox/listbox.component';
 import { MegamenuComponent } from './megamenu/megamenu.component';
+import { MensagensComponent } from './mensagens/mensagens.component';
 import { MultiselectComponent } from './multiselect/multiselect.component';
 import { OrderlistComponent } from './orderlist/orderlist.component';
 import { OrgchartComponent } from './orgchart/orgchart.component';
@@ -120,6 +121,7 @@ const routes: Routes = [
   {path:'step4', component:Step4Component},
   {path:'tabmenu', component:TabmenuComponent},
   {path:'tieredmenu', component:TieredmenuComponent},
+  {path:'mensagens', component:MensagensComponent},
 ];
 
 @NgModule({
